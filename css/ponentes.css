@@ -1,0 +1,19 @@
+.images-column {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.images-column-speaker {
+  width: 30%;
+  margin: 0 3% 3% 0;
+}
+.images-column-speaker img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+}
+.info-column {
+  width: 50%;
+  display: flex;
+}
