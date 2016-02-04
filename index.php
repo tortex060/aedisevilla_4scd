@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/pagesNavbar.css">
     <link rel="stylesheet" type="text/css" href="css/ponentes.css">
+    <!--++++++++++Estilos responsive++++++++++++++++++++-->
+    <link rel="stylesheet" type="text/css" href="css/responsiveMenu.css">
+    <link rel="stylesheet" type="text/css" href="css/responsiveHome.css">
     <!--++++++++++Fuentes++++++++++++++++++++-->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700' rel='stylesheet' type='text/css'>
     <!--++++++++++Javascript++++++++++++++++++++-->
@@ -21,6 +24,7 @@
     <script type="text/javascript" src="js/vendors/jquery.slimscroll.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/menuresponsive.js"></script>
     <script>
     $(document).ready(function(){
         $('#fullpage').fullpage({

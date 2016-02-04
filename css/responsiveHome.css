@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px){
+
+}
+@media screen and (min-width: 900px){
+
+}
+@media screen and (min-width: 768px){
+  nav.nav-desktop {
+    display: inherit;
+  }
+  .bt-menu, .slide-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px){
+  .bt-menu, .slide-menu  {
+    display: block;
+  }
+  nav.nav-desktop {
+    display: none;
+  }
+  .rrss {
+    top: 119px;
+  }
+}
