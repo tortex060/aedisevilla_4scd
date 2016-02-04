@@ -22,11 +22,26 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.8rem;
   color: #fff;
+  font-size: 4.3rem;
+}
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.8rem;
+  padding-bottom: 50px;
+}
+h2 {
+  font-weight: 700;
+  letter-spacing: 0.8rem;
+  color: #fff;
   font-size: 4.5rem;
 }
 h3 {
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #fff;
   line-height: 2rem;
   text-align: center;
@@ -148,6 +163,10 @@ button:focus {
 }
 .section-3 {
   background: url("../images/background-3.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-4 {
+  background: url("../images/background-4.jpg") no-repeat center;
   background-size: cover;
 }
 .gradient-section {
@@ -277,7 +296,18 @@ a.arrow-right {
   color: #009778;
   transition: 0.3s;
 }
+.sponsortext {
+  width: 50%;
+  margin-top: 35px;
+}
+a.link-in-text-white {
 
+  font-weight: 700;
+  color: #fff;
+}
+a.link-in-text-white:hover {
+  text-decoration: underline;
+}
 
 
 
