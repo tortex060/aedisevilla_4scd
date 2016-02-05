@@ -1,7 +1,7 @@
 .bt-menu {
   position: fixed;
   right: 0;
-  top: 28px;
+  top: 25px;
   z-index: 99;
 
 }
@@ -9,7 +9,7 @@
   display: block;
   width: 60px;
   height: auto;
-  margin-right: 28px;
+  margin-right: 25px;
   transition: 1s;
 }
 .menu-rotate {
@@ -23,7 +23,7 @@
   margin:0;
   position: fixed;
   top: 0;
-  max-width:230px;
+  max-width:200px;
   background: #333;
   box-shadow: 5px 0px 10px rgba(0,0,0, 0.3);
   border-right: 2px solid #fff;
@@ -41,10 +41,10 @@
 .slide-menu ul li a {
   color:#fff;
   width: 100%;
-  padding:20px;
+  padding:15px;
   display:block;
   text-decoration:none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 .slide-menu ul li a:focus {
@@ -66,4 +66,18 @@
 .menu-bar-shadow {
   box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
   transition: all 1s ease;
+}
+.rrss-responsive {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+
+}
+.rrss-responsive a {
+  display: inline-block;
+
+}
+.rrss-responsive a img {
+  width: 50px;
+  height: auto;
 }

@@ -13,7 +13,7 @@ body {
 }
 p {
   font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #fff;
   line-height: 2.8rem;
   text-align: center;
@@ -171,18 +171,18 @@ button:focus {
 }
 .gradient-section {
   width: 100%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .big-logo {
-  width: 30%;
-  max-width: 500px;
+  height: 80%;
 }
 .big-logo img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 .flex-horizontal-center {
   display: flex;
@@ -190,7 +190,7 @@ button:focus {
   align-items: center;
 }
 .flex-horizontal-between {
-  width: 90%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -230,7 +230,7 @@ button:focus {
   margin-bottom: 35px;
 }
 .speaker {
-  width: 18%;
+  width: 23%;
   align-items: flex-start;
 }
 a.arrow-left {
@@ -298,7 +298,6 @@ a.arrow-right {
 }
 .sponsortext {
   width: 50%;
-  margin-top: 35px;
 }
 a.link-in-text-white {
 
@@ -307,6 +306,19 @@ a.link-in-text-white {
 }
 a.link-in-text-white:hover {
   text-decoration: underline;
+}
+.sponsors {
+  width: 85%;
+  max-width: 1400px;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sponsors img{
+  max-width: 150px;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 

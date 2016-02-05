@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>#4SCD - Indivisible Knowledge</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--++++++++++Estilos++++++++++++++++++++-->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
     <link rel="stylesheet" type="text/css" href="owl-carousel/owl.carousel.css">
@@ -27,9 +27,13 @@
     <script type="text/javascript" src="js/menuresponsive.js"></script>
     <script>
     $(document).ready(function(){
+      var windowWidth = $(window).width();
+      console.log(windowWidth);
+      if(windowWidth >= 768){
         $('#fullpage').fullpage({
           verticalCentered: true
         });
+      }
       });
     </script>
     <script type="text/javascript">
