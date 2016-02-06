@@ -66,7 +66,7 @@ nav {
   top:0;
   left: 0;
   z-index: 99;
-  
+
 }
 nav.nav-pages {
   position: relative;
@@ -331,6 +331,14 @@ header {
   width: 100%;
   max-width: 2000px;
   margin: 0 auto;
+}
+.speaker-close {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  width: 50px;
+  height: auto;
+  z-index: 999;
 }
 .page-title {
   width: 100%;
