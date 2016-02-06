@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>#4SCD - Indivisible Knowledge</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
     <!--++++++++++Estilos++++++++++++++++++++-->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
     <link rel="stylesheet" type="text/css" href="owl-carousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="owl-carousel/owl.theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsiveStyle.css">
     <link rel="stylesheet" type="text/css" href="css/pagesNavbar.css">
     <link rel="stylesheet" type="text/css" href="css/ponentes.css">
+    <link rel="stylesheet" type="text/css" href="css/responsivePonentes.css">
     <!--++++++++++Estilos responsive++++++++++++++++++++-->
     <link rel="stylesheet" type="text/css" href="css/responsiveMenu.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveHome.css">
@@ -37,13 +40,13 @@
       });
     </script>
     <script type="text/javascript">
-      $(document).ready(function() {
+      function startCarousel() {
         $("#owl").owlCarousel({
           navigation : false, // Show next and prev buttons
           slideSpeed : 300,
           paginationSpeed : 400,
           singleItem: true,
-          autoPlay: 2000,
+          autoPlay: 2500,
           pagination: false,
           stopOnHover: true,
           autoHeight: true,
@@ -64,7 +67,7 @@
         $(".prev").click(function(){
           owl.trigger('owl.prev');
         })
-    });
+    };
     </script>
   </head>
   <body>

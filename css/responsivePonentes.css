@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+  .images-column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .images-column-speaker {
+    width: 50%;
+    margin-top: 0;
+  }
+  .center-speaker {
+    margin: 0px;
+  }
+  .images-column {
+    padding: 0;
+  }
+}
