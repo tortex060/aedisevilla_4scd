@@ -1,3 +1,12 @@
+@media screen and (max-width: 400px) {
+  .page-content {
+    padding: 0px;
+  }
+  h2 {
+    font-size: 10vw;
+  }
+}
+
 @media screen and (max-width: 767px) {
   header {
     height: 100px;
@@ -19,12 +28,34 @@
   .page-container {
     padding-top:100px;
   }
-}
-@media screen and (max-width: 400px) {
-  .page-content {
-    padding: 0px;
+  /*4SCD PAGE*/
+  .scd-text-column-left {
+    padding: 0;
+    width: 100%;
+    order: 3;
   }
-  h2 {
-    font-size: 10vw;
+  .scd-text-column-left p, .scd-text-column-left h4{
+    text-align: left;
+  }
+  .scd-text-column-right {
+    width: 100%;
+    padding: 0;
+    order: 1;
+  }
+  .scd-text-column-right p, .scd-text-column-right h4{
+    text-align: left;
+  }
+  .displayDesktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .scd-text-column-left, .scd-text-column-right {
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .displayResp {
+    display: none;
   }
 }
