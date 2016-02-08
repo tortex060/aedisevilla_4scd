@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="css/pagesNavbar.css">
     <link rel="stylesheet" type="text/css" href="css/ponentes.css">
     <link rel="stylesheet" type="text/css" href="css/responsivePonentes.css">
+    <link rel="stylesheet" type="text/css" href="css/entradas.css">
+    <link rel="stylesheet" type="text/css" href="css/responsiveEntradas.css">
     <!--++++++++++Estilos responsive++++++++++++++++++++-->
     <link rel="stylesheet" type="text/css" href="css/responsiveMenu.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveHome.css">
@@ -28,17 +30,7 @@
     <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/menuresponsive.js"></script>
-    <script>
-    $(document).ready(function(){
-      var windowWidth = $(window).width();
-      console.log(windowWidth);
-      if(windowWidth >= 768){
-        $('#fullpage').fullpage({
-          verticalCentered: true
-        });
-      }
-      });
-    </script>
+
     <script type="text/javascript">
       function startCarousel() {
         $("#owl").owlCarousel({
@@ -101,6 +93,9 @@
           break;
           case "contacto":
             include_once ("contacto.php");
+          break;
+          case "pasarela":
+            include_once ("pasarela.php");
           break;
         }
       } else {

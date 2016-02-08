@@ -48,6 +48,9 @@
   .displayDesktop {
     display: none;
   }
+  .owl-home {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 500px) {
   .scd-text-column-left, .scd-text-column-right {
@@ -58,4 +61,7 @@
   .displayResp {
     display: none;
   }
+}
+@media screen and (min-width: 900px) {
+
 }

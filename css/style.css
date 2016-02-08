@@ -169,20 +169,26 @@ button:focus {
   background: url("../images/background-4.jpg") no-repeat center;
   background-size: cover;
 }
+.full-background {
+  background: url("../images/background-movil.jpg") no-repeat center;
+  background-size: cover;
+}
 .gradient-section {
   width: 100%;
-  height: 80%;
+  /*height: 80%;*/
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .big-logo {
-  height: 80%;
+  /*height: 80%;*/
+  text-align: center;
 }
 .big-logo img {
-  width: auto;
-  height: 100%;
+  /*height: 100%;*/
+  max-width: 485px;
+  vertical-align: middle;
 }
 .flex-horizontal-center {
   display: flex;
@@ -428,3 +434,23 @@ p.image-footer {
   padding: 0;
 }
 /****************************/
+
+/**CAROUSEL HOME*/
+.owl-home {
+  width: 75%;
+}
+.carousel-speaker {
+  padding: 10px;
+}
+.carousel-speaker img {
+  width: 100%;
+}
+.carousel-speaker p {
+  margin-top: 6px;
+  text-align: left;
+  line-height: 2rem;
+
+}
+.carousel-speaker p:nth-child(2) {
+  font-weight: 700;
+}
