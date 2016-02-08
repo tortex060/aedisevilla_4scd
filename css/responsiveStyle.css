@@ -23,7 +23,7 @@
     padding-top: 0px;
   }
   h2 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   .page-container {
     padding-top:100px;
@@ -50,6 +50,21 @@
   }
   .owl-home {
     width: 100%;
+  }
+  /*LOCATION*/
+  .location-container {
+    flex-wrap: wrap;
+  }
+  .location-image-uruguay, .location-image-cicus {
+    width: 100%;
+    order: 2;
+    margin: 10px 0px;
+    height: 300px;
+  }
+  .location-text {
+    width: 100%;
+    order: 1;
+    padding: 15px 15px;
   }
 }
 @media screen and (max-width: 500px) {

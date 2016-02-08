@@ -52,7 +52,7 @@ nav {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 999;
   text-align: center;
   max-width: 2000px;
   margin: 0 auto;
@@ -153,6 +153,20 @@ button:focus {
   transform: rotate(360deg);
   transition: 1s;
 }
+/*RRSS CONTACTO*/
+.rrss-contact img{
+  display: inline-block;
+  width: 55px;
+  height: auto;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.rrss-contact img:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+/*******************/
 .section-1 {
   background: url("../images/background-1.jpg") no-repeat center;
   background-size: cover;
@@ -344,7 +358,7 @@ header {
   left: 25px;
   width: 50px;
   height: auto;
-  z-index: 999;
+  z-index: 995;
 }
 .page-title {
   width: 100%;
@@ -453,4 +467,44 @@ p.image-footer {
 }
 .carousel-speaker p:nth-child(2) {
   font-weight: 700;
+}
+/***********************************/
+
+/*lOCATION*/
+.location-container {
+  width: 100%;
+  display: flex;
+}
+.location-image-uruguay{
+  width: 50%;
+  background: url("/images/uruguay.jpg") no-repeat center;
+  background-size: cover;
+  margin: 10px 20px;
+}
+.location-image-cicus{
+  width: 50%;
+  background: url("/images/cicus.jpg") no-repeat center;
+  background-size: cover;
+  margin: 10px 20px;
+}
+.location-image img {
+  width: 100%;
+}
+.location-text {
+  width: 50%;
+}
+.location-text h5 span {
+  text-transform: none;
+}
+.location-text a {
+  color: #cd3161;
+  font-size: 1.6rem;
+}
+
+/*CONTACT*/
+@media screen and (max-width: 767px) {
+  .contact-container {
+    padding: 15px;
+    align-items: center;
+  }
 }
