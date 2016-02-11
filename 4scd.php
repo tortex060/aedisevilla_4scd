@@ -41,11 +41,11 @@
       <h5> </h5>
       <p class="light-bg">La pasada edición del evento, la #3SCD tuvo lugar en Marzo de 2015. Se decidió contactar con los profesionales y empresas más relevantes del sector del diseño nacional.</p>
 
-      <p class="light-bg">El evento fue una maratón que comienzó con Carlos Tíscar invitándonos a pensar en qué momento decidimos ser diseñadores industriales, para pasar a que Enrique Romero y Miguel Ángel Pérez de Racormance nos hablasen del proceso de aprendizaje, de problemas y soluciones. Blanca Drake nos contó cómo nace Vitra y nos vislumbró a algunos clásicos del diseño.</p>
+      <p class="light-bg">El evento fue una maratón que comenzó con Carlos Tíscar invitándonos a pensar en qué momento decidimos ser diseñadores industriales, para pasar a que Enrique Romero y Miguel Ángel Pérez de Racormance nos hablasen del proceso de aprendizaje, de problemas y soluciones. Blanca Drake nos contó cómo nace Vitra y nos vislumbró con algunos clásicos del diseño.</p>
 
       <p class="light-bg">Laura Molina y Sergio Herrera, de Todomuta, nos enseñaron materiales tratados artesanalmente, mientras que José María Millá y Josep María Serra, de Santa&Cole, nos mostraron todo el proceso industrial para elaborar el banco neorromántico y las distintas versiones del mismo en otros materiales, haciendo hincapié en el valor y la calidad de lo auténtico frente a copias más baratas.</p>
 
-      <p class="light-bg">Óscar Vera, de Vondom, nos explicó la importancia de saber transmitir una idea y Fernando Infante, de El Golpe, nos hizo ver la importancia de lo gráfico en el producto. Marcelo Alegre, nos presentó su estudio y el proceso para realizar una silla de oficina, y Pablo Crespo, de Imaisde, nos mostró diversos trabajos que había realizado, dándonos claves para alcanzar el éxito profesional.</p>
+      <p class="light-bg">Óscar Vera, de Vondom, nos explicó la importancia de saber transmitir una idea y Fernando Infante, de El Golpe, nos hizo ver la relevancia de lo gráfico en el producto. Marcelo Alegre, nos presentó su estudio y el proceso para realizar una silla de oficina, y Pablo Crespo, de Imaisde, nos mostró diversos trabajos que había realizado, dándonos claves para alcanzar el éxito profesional.</p>
 
       <p class="light-bg">La ponencia de Nacho Lavernia giraba en torno a la frase “La creatividad es como la mermelada...” mientras que Javier Peña, de Materfad, realizó un análisis de materiales como el grafeno o la nanocelulosa, dejándonos impresionados.</p>
 

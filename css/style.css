@@ -46,7 +46,7 @@ h3 {
   line-height: 2rem;
   text-align: center;
   letter-spacing: 0.8rem;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 nav {
   position: absolute;
@@ -335,7 +335,7 @@ a.link-in-text-white:hover {
   margin-bottom: 30px;
 }
 .sponsors img{
-  max-width: 150px;
+  max-width: 120px;
   height: auto;
   vertical-align: middle;
   display: inline-block;
@@ -451,7 +451,7 @@ p.image-footer {
 
 /**CAROUSEL HOME*/
 .owl-home {
-  width: 75%;
+  width: 66%;
 }
 .carousel-speaker {
   padding: 10px;
