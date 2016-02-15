@@ -333,6 +333,78 @@ function showSpeakerInfo(ponente){
         startCarousel();
 
     break;
+    case "benedito":
+      document.getElementById("speakerName").innerHTML = "RAMÓN BENEDITO";
+      document.getElementById("speakerCorp").innerHTML = "BENEDITO DESIGN";
+      document.getElementById("speakerText1").innerHTML = "Funda en 1973, BENEDITO DESIGN equipo dedicado al diseño de producto que ha  realizado proyectos para destacadas empresas tanto nacionales como internacionales. En 1992 recibe el Premio Nacional de Diseño."
+      document.getElementById("speakerText2").innerHTML = "Durante 19 años ha impartido la asignatura de proyectos en la Escuela Elisava. Con Lluís Morillas y Josep Puig, funda en 1983 el equipo de diseño experimental Transatlantic. Ha sido Presidente de la Junta Directiva de ADI-FAD (Agrupación de Diseño Industrial del FAD), miembro del Consejo Directivo del FAD (Fomento de las Artes y el Diseño), consultor del KIDP (Korean Institute of Industrial Design) y miembro del Patronato de la Fundación BCD  (Barcelona Centro de Diseño). En junio de 2010 es nombrado Director General de Elisava. Sus proyectos se han expuesto en las principales capitales del mundo."
+      document.getElementById("speakerLectureTitle").innerHTML = "La forma del paisaje"
+      document.getElementById("speakerLectureText1").innerHTML = "Una mirada de retrovisor que recorre el discurrir de una trayectoria de diseño vinculada a Barcelona y que participa de la tradición emprendedora y artística de esta ciudad. Escuelas, instituciones, experiencias, empresas y la difusión internacional configuran este paisaje singular."
+      document.getElementById("speakerLectureText2").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
+
+      $("#product1").attr("src", "/images/ponentes/products/ramon-benedito-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/ramon-benedito-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/ramon-benedito-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/ramon-benedito-03.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/ramon-benedito-04.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "RAMÓN BENEDITO";
+        document.getElementById("speakerCorpR").innerHTML = "BENEDITO DESIGN";
+        document.getElementById("speakerText1R").innerHTML = "Funda en 1973, BENEDITO DESIGN equipo dedicado al diseño de producto que ha  realizado proyectos para destacadas empresas tanto nacionales como internacionales. En 1992 recibe el Premio Nacional de Diseño."
+        document.getElementById("speakerText2R").innerHTML = "Durante 19 años ha impartido la asignatura de proyectos en la Escuela Elisava. Con Lluís Morillas y Josep Puig, funda en 1983 el equipo de diseño experimental Transatlantic. Ha sido Presidente de la Junta Directiva de ADI-FAD (Agrupación de Diseño Industrial del FAD), miembro del Consejo Directivo del FAD (Fomento de las Artes y el Diseño), consultor del KIDP (Korean Institute of Industrial Design) y miembro del Patronato de la Fundación BCD  (Barcelona Centro de Diseño). En junio de 2010 es nombrado Director General de Elisava. Sus proyectos se han expuesto en las principales capitales del mundo."
+        document.getElementById("speakerLectureTitleR").innerHTML = "La forma del paisaje"
+        document.getElementById("speakerLectureText1R").innerHTML = "Una mirada de retrovisor que recorre el discurrir de una trayectoria de diseño vinculada a Barcelona y que participa de la tradición emprendedora y artística de esta ciudad. Escuelas, instituciones, experiencias, empresas y la difusión internacional configuran este paisaje singular."
+        document.getElementById("speakerLectureText2R").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+    case "jmoreno":
+      document.getElementById("speakerName").innerHTML = "JAIME MORENO";
+      document.getElementById("speakerCorp").innerHTML = "MORMEDI";
+      document.getElementById("speakerText1").innerHTML = "Jaime Moreno se formó como diseñador en España, Suiza y Estados Unidos. Durante 15 años ha hecho posible el crecimiento de Mormedi a través de proyectos de significativa relevancia profesional premiados a nivel nacional e internacional."
+      document.getElementById("speakerText2").innerHTML = "MORMEDI es una consultora de innovación y diseño de producto, que se basa en el diseño centrado en el usuario. Mormedi busca soluciones que añadan un valor comercial aportando una visión creativa que cautive al usuario."
+      document.getElementById("speakerLectureTitle").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica"
+      document.getElementById("speakerLectureText1").innerHTML = "Hoy en día es imprescindible diseñar poniendo al cliente en el centro. Las empresas deben para poder innovar con éxito aplicar procesos \"customer centric\" para la conceptualización y el diseño de cualquier nuevo producto o servicio. Las metodologías del diseño estratégico que combinan el \"Design Thinking\" con el \"Business Thinking\" son clave para la innovación ya que permiten enfocar, iterar y validar los conceptos de una forma óptima tanto a nivel de experiencia como a nivel de viabilidad económica."
+      document.getElementById("speakerLectureText2").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
+
+      $("#product1").attr("src", "/images/ponentes/products/mormedi-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/mormedi-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/mormedi-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/mormedi-03.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/mormedi-04.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "RAMÓN BENEDITO";
+        document.getElementById("speakerCorpR").innerHTML = "BENEDITO DESIGN";
+        document.getElementById("speakerText1R").innerHTML = "Funda en 1973, BENEDITO DESIGN equipo dedicado al diseño de producto que ha  realizado proyectos para destacadas empresas tanto nacionales como internacionales. En 1992 recibe el Premio Nacional de Diseño."
+        document.getElementById("speakerText2R").innerHTML = "Durante 19 años ha impartido la asignatura de proyectos en la Escuela Elisava. Con Lluís Morillas y Josep Puig, funda en 1983 el equipo de diseño experimental Transatlantic. Ha sido Presidente de la Junta Directiva de ADI-FAD (Agrupación de Diseño Industrial del FAD), miembro del Consejo Directivo del FAD (Fomento de las Artes y el Diseño), consultor del KIDP (Korean Institute of Industrial Design) y miembro del Patronato de la Fundación BCD  (Barcelona Centro de Diseño). En junio de 2010 es nombrado Director General de Elisava. Sus proyectos se han expuesto en las principales capitales del mundo."
+        document.getElementById("speakerLectureTitleR").innerHTML = "La forma del paisaje"
+        document.getElementById("speakerLectureText1R").innerHTML = "Una mirada de retrovisor que recorre el discurrir de una trayectoria de diseño vinculada a Barcelona y que participa de la tradición emprendedora y artística de esta ciudad. Escuelas, instituciones, experiencias, empresas y la difusión internacional configuran este paisaje singular."
+        document.getElementById("speakerLectureText2R").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
 
     default:
   }

@@ -1,38 +1,38 @@
 .purple-border {
-  border: 3px solid #8f1a60;
+  border: 3px solid #D2D2D2;
 }
 .purple-bg {
-  background: #8f1a60;
+  background: #D2D2D2;
 }
 .purple-text {
-  color: #8f1a60;
+  color: #D2D2D2;
 }
 .pink-border {
-  border: 3px solid #CE3262;
+  border: 3px solid #D2D2D2;
 }
 .pink-bg {
-  background: #CE3262;
+  background: #D2D2D2;
 }
 .pink-text {
-  color: #CE3262;
+  color: #D2D2D2;
 }
 .turquesa-border {
-  border: 3px solid #00a19b;
+  border: 3px solid #D2D2D2;
 }
 .turquesa-bg {
-  background: #00a19b;
+  background: #D2D2D2;
 }
 .turquesa-text {
-  color: #00a19b;
+  color: #D2D2D2;
 }
 .green-border {
-  border: 3px solid #085156;
+  border: 3px solid #00a19b;
 }
 .green-bg {
-  background: #085156;
+  background: #00a19b;
 }
 .green-text {
-  color: #085156;
+  color: #00a19b;
 }
 .ticket-flex {
   justify-content: space-between;
@@ -67,6 +67,7 @@
 .ticket-content p {
   text-align: center;
   padding: 0;
+  color: #D2D2D2;
 }
 .ticket-content p.addinfo {
   margin-top: 50px;

@@ -23,7 +23,7 @@
          <h5>SOCIOS DE AEDI</h5>
        </div>
        <div class="ticket-content">
-         <h4 class="purple-text">18,00 €</h4>
+         <h4 class="purple-text">AGOTADAS</h4>
          <p class="light-bg"><b>Disponibilidad</b></p>
          <p class="light-bg">8 febrero 20:00 al 29 febrero 20:00</p>
          <p class="light-bg addinfo">Aplica el descuento introduciendo los
@@ -37,7 +37,7 @@
          <h5>PASE GENERAL</h5>
        </div>
        <div class="ticket-content">
-         <h4 class="pink-text">25,00 €</h4>
+         <h4 class="pink-text">AGOTADAS</h4>
          <p class="light-bg"><b>Disponibilidad</b></p>
          <p class="light-bg">11 febrero 20:00 al 29 febrero 20:00</p>
        </div>
@@ -49,7 +49,7 @@
          <h5>GRUPOS</h5>
        </div>
        <div class="ticket-content">
-         <h4 class="turquesa-text">22,00 €</h4>
+         <h4 class="turquesa-text">AGOTADAS</h4>
          <p class="light-bg"><b>Disponibilidad</b></p>
          <p class="light-bg">11 febrero 20:00 al 29 febrero 20:00</p>
          <p class="light-bg addinfo">Para grupos a partir de 10 personas. Precio por persona.</p>
@@ -63,8 +63,8 @@
        </div>
        <div class="ticket-content">
          <h4 class="green-text">10,00 €</h4>
-         <p class="light-bg"><b>Disponibilidad</b></p>
-         <p class="light-bg">29 febrero 20:00 hasta agotar existencias</p>
+         <p class="light-bg" style="color: #333;"><b>Disponibilidad</b></p>
+         <p class="light-bg"style="color: #333;">29 febrero 20:00 hasta agotar existencias</p>
        </div>
      </div>
 
