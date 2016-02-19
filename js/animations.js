@@ -131,7 +131,7 @@ function showSpeakerInfo(ponente){
             $(".images-column-speaker img").hide();
             $(".page-title h2").hide();
             $(".speaker-close").show();
-            document.getElementById("speakerNameR").innerHTML = "POL ANDRÉS";
+            document.getElementById("speakerNameR").innerHTML = "POL ANDRÉS FANTOBA";
             document.getElementById("speakerCorpR").innerHTML = "LÚCID";
             document.getElementById("speakerText1R").innerHTML = "Pol Andrés Fantoba es Ingeniero Técnico Mecánico (UPC) con máster en diseño de producto (ELISAVA) y con cursos de formación especializada en plásticos (ASCAMM). Es fundador de estudios de ingeniería y diseño como de ENGINEERWORKS SL, PLAFANTOBA SL y, actualmente, LÚCID Product Design."
             document.getElementById("speakerText2R").innerHTML = "LÚCID es una agencia de diseño de producto cuyo propósito es diseñar y desarrollar productos innovadores que estimulen, inspiren y resulten útiles para el consumidor. Se centran en ayudar a las empresas a crecer y adquirir una ventaja competitiva sostenible través de un equipo formado por los diseñadores más técnicos y los ingenieros más creativos. Trabajan para transformar las ideas en productos innovadores, rentables y que superarán las expectativas del consumidor."
@@ -302,9 +302,9 @@ function showSpeakerInfo(ponente){
         document.getElementById("speakerCorp").innerHTML = "workINcompany";
         document.getElementById("speakerText1").innerHTML = "Emprendedor en serie, especialista en gestión y diseño de entornos de trabajo, desarrollo y acompañamiento para profesionales y para emprendedores. Arquitecto superior formado en la Universidad de Sevilla y el Politécnico de Milán. Máster en Artes del Espectáculo Vivo (Universidad de Sevilla), MBA Executive (Máster en Administración de Empresas) (Cámara de Comercio de Sevilla) y Especialista en Social Media Management (ESIC Sevilla)."
         document.getElementById("speakerText2").innerHTML = "Trabaja en diferentes estudios de arquitectura y, posteriormente, como Consultor escenotécnico durante varios años hasta que inicia su actividad empresarial independiente en diferentes iniciativas. Cofundador de workINcompany, primer espacio coworking de Andalucía en Sevilla, vozWise, equipo multidisciplinar de formación para hablar en público para profesionales, y Nativo Social, agencia de comunicación social media. Director de proyectos en el programa emprendedor internacional Cosmopolitia. Asesor personal de emprendedores y profesionales en ThinkPal. Socio fundador y presidente de la asociación SevillaUP. Ponente y formador habitual en múltiples foros sobre coworking, emprendimiento, y desarrollo de ecosistemas profesionales. Profesor invitado en la Universidad de Sevilla, Universidad Pablo de Olavide, Campus EUSA o Universidad Loyola Andalucía para formaciones relativas a modelos de negocio, comunicación personal o innovación y competitividad."
-        document.getElementById("speakerLectureTitle").innerHTML = ""
-        document.getElementById("speakerLectureText1").innerHTML = ""
-        document.getElementById("speakerLectureText2").innerHTML = ""
+        document.getElementById("speakerLectureTitle").innerHTML = "Tu modelo de negocio: de la cartera a la startup"
+        document.getElementById("speakerLectureText1").innerHTML = "Todos queremos montar startups, ser emprendedores, lanzar una idea que nos lleve directamente al éxito… siempre ganando algunos millones de dólares por el camino, por supuesto… Mientras nos descubren, estaría genial trabajar para convertirnos en grandes profesionales que sumen valor añadido a ese proyecto que nos jubilará."
+        document.getElementById("speakerLectureText2").innerHTML = "En 4 horas haremos un zoom in-out: de profesional a empresa. Un taller intensivo de “defensa profesional”. Analizaremos el valor de nuestro trabajo, veremos herramientas para crear nuestro modelo de vida (sostenible), interrogaremos a un producto que diseñaremos sobre la marcha e inventaremos el modelo de negocio de esa idea que nos lanzará al estrellato. Si te atreves a hablar de pasta, a admitir que necesitas comer a diario y tienes ganas de vivir de tus ideas… ¡Ven! Te vamos a dar un buen acelerón."
 
         $("#product1").attr("src", "/images/ponentes/products/jaime-aranda-00.jpg");
         $("#product2").attr("src", "/images/ponentes/products/jaime-aranda-01.jpg");
@@ -320,9 +320,9 @@ function showSpeakerInfo(ponente){
           document.getElementById("speakerCorpR").innerHTML = "workINcompany";
           document.getElementById("speakerText1R").innerHTML = "Emprendedor en serie, especialista en gestión y diseño de entornos de trabajo, desarrollo y acompañamiento para profesionales y para emprendedores. Arquitecto superior formado en la Universidad de Sevilla y el Politécnico de Milán. Máster en Artes del Espectáculo Vivo (Universidad de Sevilla), MBA Executive (Máster en Administración de Empresas) (Cámara de Comercio de Sevilla) y Especialista en Social Media Management (ESIC Sevilla)."
           document.getElementById("speakerText2R").innerHTML = "Trabaja en diferentes estudios de arquitectura y, posteriormente, como Consultor escenotécnico durante varios años hasta que inicia su actividad empresarial independiente en diferentes iniciativas. Cofundador de workINcompany, primer espacio coworking de Andalucía en Sevilla, vozWise, equipo multidisciplinar de formación para hablar en público para profesionales, y Nativo Social, agencia de comunicación social media. Director de proyectos en el programa emprendedor internacional Cosmopolitia. Asesor personal de emprendedores y profesionales en ThinkPal. Socio fundador y presidente de la asociación SevillaUP. Ponente y formador habitual en múltiples foros sobre coworking, emprendimiento, y desarrollo de ecosistemas profesionales. Profesor invitado en la Universidad de Sevilla, Universidad Pablo de Olavide, Campus EUSA o Universidad Loyola Andalucía para formaciones relativas a modelos de negocio, comunicación personal o innovación y competitividad."
-          document.getElementById("speakerLectureTitleR").innerHTML = ""
-          document.getElementById("speakerLectureText1R").innerHTML = ""
-          document.getElementById("speakerLectureText2R").innerHTML = ""
+          document.getElementById("speakerLectureTitle").innerHTML = "Tu modelo de negocio: de la cartera a la startup"
+          document.getElementById("speakerLectureText1").innerHTML = "Todos queremos montar startups, ser emprendedores, lanzar una idea que nos lleve directamente al éxito… siempre ganando algunos millones de dólares por el camino, por supuesto… Mientras nos descubren, estaría genial trabajar para convertirnos en grandes profesionales que sumen valor añadido a ese proyecto que nos jubilará."
+          document.getElementById("speakerLectureText2").innerHTML = "En 4 horas haremos un zoom in-out: de profesional a empresa. Un taller intensivo de “defensa profesional”. Analizaremos el valor de nuestro trabajo, veremos herramientas para crear nuestro modelo de vida (sostenible), interrogaremos a un producto que diseñaremos sobre la marcha e inventaremos el modelo de negocio de esa idea que nos lanzará al estrellato. Si te atreves a hablar de pasta, a admitir que necesitas comer a diario y tienes ganas de vivir de tus ideas… ¡Ven! Te vamos a dar un buen acelerón."
           $textResp.slideToggle();
         } else {
           $text.slideToggle();
@@ -376,7 +376,7 @@ function showSpeakerInfo(ponente){
       document.getElementById("speakerText2").innerHTML = "MORMEDI es una consultora de innovación y diseño de producto, que se basa en el diseño centrado en el usuario. Mormedi busca soluciones que añadan un valor comercial aportando una visión creativa que cautive al usuario."
       document.getElementById("speakerLectureTitle").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica"
       document.getElementById("speakerLectureText1").innerHTML = "Hoy en día es imprescindible diseñar poniendo al cliente en el centro. Las empresas deben para poder innovar con éxito aplicar procesos \"customer centric\" para la conceptualización y el diseño de cualquier nuevo producto o servicio. Las metodologías del diseño estratégico que combinan el \"Design Thinking\" con el \"Business Thinking\" son clave para la innovación ya que permiten enfocar, iterar y validar los conceptos de una forma óptima tanto a nivel de experiencia como a nivel de viabilidad económica."
-      document.getElementById("speakerLectureText2").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
+      document.getElementById("speakerLectureText2").innerHTML = ""
 
       $("#product1").attr("src", "/images/ponentes/products/mormedi-00.jpg");
       $("#product2").attr("src", "/images/ponentes/products/mormedi-01.jpg");
@@ -388,13 +388,49 @@ function showSpeakerInfo(ponente){
         $(".images-column-speaker img").hide();
         $(".page-title h2").hide();
         $(".speaker-close").show();
-        document.getElementById("speakerNameR").innerHTML = "RAMÓN BENEDITO";
-        document.getElementById("speakerCorpR").innerHTML = "BENEDITO DESIGN";
-        document.getElementById("speakerText1R").innerHTML = "Funda en 1973, BENEDITO DESIGN equipo dedicado al diseño de producto que ha  realizado proyectos para destacadas empresas tanto nacionales como internacionales. En 1992 recibe el Premio Nacional de Diseño."
-        document.getElementById("speakerText2R").innerHTML = "Durante 19 años ha impartido la asignatura de proyectos en la Escuela Elisava. Con Lluís Morillas y Josep Puig, funda en 1983 el equipo de diseño experimental Transatlantic. Ha sido Presidente de la Junta Directiva de ADI-FAD (Agrupación de Diseño Industrial del FAD), miembro del Consejo Directivo del FAD (Fomento de las Artes y el Diseño), consultor del KIDP (Korean Institute of Industrial Design) y miembro del Patronato de la Fundación BCD  (Barcelona Centro de Diseño). En junio de 2010 es nombrado Director General de Elisava. Sus proyectos se han expuesto en las principales capitales del mundo."
-        document.getElementById("speakerLectureTitleR").innerHTML = "La forma del paisaje"
-        document.getElementById("speakerLectureText1R").innerHTML = "Una mirada de retrovisor que recorre el discurrir de una trayectoria de diseño vinculada a Barcelona y que participa de la tradición emprendedora y artística de esta ciudad. Escuelas, instituciones, experiencias, empresas y la difusión internacional configuran este paisaje singular."
-        document.getElementById("speakerLectureText2R").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
+        document.getElementById("speakerNameR").innerHTML = "JAIME MORENO";
+        document.getElementById("speakerCorpR").innerHTML = "MORMEDI";
+        document.getElementById("speakerText1R").innerHTML = "Jaime Moreno se formó como diseñador en España, Suiza y Estados Unidos. Durante 15 años ha hecho posible el crecimiento de Mormedi a través de proyectos de significativa relevancia profesional premiados a nivel nacional e internacional."
+        document.getElementById("speakerText2R").innerHTML = "MORMEDI es una consultora de innovación y diseño de producto, que se basa en el diseño centrado en el usuario. Mormedi busca soluciones que añadan un valor comercial aportando una visión creativa que cautive al usuario."
+        document.getElementById("speakerLectureTitleR").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica"
+        document.getElementById("speakerLectureText1R").innerHTML = "Hoy en día es imprescindible diseñar poniendo al cliente en el centro. Las empresas deben para poder innovar con éxito aplicar procesos \"customer centric\" para la conceptualización y el diseño de cualquier nuevo producto o servicio. Las metodologías del diseño estratégico que combinan el \"Design Thinking\" con el \"Business Thinking\" son clave para la innovación ya que permiten enfocar, iterar y validar los conceptos de una forma óptima tanto a nivel de experiencia como a nivel de viabilidad económica."
+        document.getElementById("speakerLectureText2R").innerHTML = ""
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+    case "gandia":
+      document.getElementById("speakerName").innerHTML = "TONO GANDÍA";
+      document.getElementById("speakerCorp").innerHTML = "ENERGY SISTEM";
+      document.getElementById("speakerText1").innerHTML = "Tono Gandia, valenciano de 29 años, es Diseñador Industrial por la UPV con un master en Ingeniería del diseño (UPV) y un master en diseño y organización industrial en el sector del mueble (CETEM). Se define a sí mismo como un apasionado de conceptualizar nuevos productos enfocados al usuario y concibe el diseño como un factor influyente en la calidad de vida de las personas."
+      document.getElementById("speakerText2").innerHTML = "Aunque comenzó con el diseño de mobiliario, desarrollando conceptos para una empresa del sector, pronto evolucionó hacia otros sectores trabajando como freelance para distintas agencias y proyectos de diseño industrial y 3D hasta que en 2013 pasó a formar parte de Energy Sistem Technology, empresa especializada en el diseño, desarrollo y comercialización de productos tecnológicos con más de 20 años de trayectoria, donde ejerze actualmente como responsable de diseño industrial llevando a cabo tareas como conceptualización de nuevos productos, prototipado 3D y supervisión de procesos y materiales."
+      document.getElementById("speakerLectureTitle").innerHTML = "De una parte al todo"
+      document.getElementById("speakerLectureText1").innerHTML = "En Energy Sistem, se concibe el diseño como un factor fundamental en todo el proceso de desarrollo y lanzamiento de un producto. Por eso en esta ponencia Tono Gandía expondrá el valor estratégico del diseño en cada una de las fases del proceso creativo de un producto tecnológico, desde que nace hasta que llega al consumidor."
+      document.getElementById("speakerLectureText2").innerHTML = ""
+
+      $("#product1").attr("src", "/images/ponentes/products/tono-gandia-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/tono-gandia-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/tono-gandia-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/tono-gandia-03.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/tono-gandia-02.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "TONO GANDÍA";
+        document.getElementById("speakerCorpR").innerHTML = "ENERGY SISTEM";
+        document.getElementById("speakerText1R").innerHTML = "Tono Gandia, valenciano de 29 años, es Diseñador Industrial por la UPV con un master en Ingeniería del diseño (UPV) y un master en diseño y organización industrial en el sector del mueble (CETEM). Se define a sí mismo como un apasionado de conceptualizar nuevos productos enfocados al usuario y concibe el diseño como un factor influyente en la calidad de vida de las personas."
+        document.getElementById("speakerText2R").innerHTML = "Aunque comenzó con el diseño de mobiliario, desarrollando conceptos para una empresa del sector, pronto evolucionó hacia otros sectores trabajando como freelance para distintas agencias y proyectos de diseño industrial y 3D hasta que en 2013 pasó a formar parte de Energy Sistem Technology, empresa especializada en el diseño, desarrollo y comercialización de productos tecnológicos con más de 20 años de trayectoria, donde ejerze actualmente como responsable de diseño industrial llevando a cabo tareas como conceptualización de nuevos productos, prototipado 3D y supervisión de procesos y materiales."
+        document.getElementById("speakerLectureTitleR").innerHTML = "De una parte al todo"
+        document.getElementById("speakerLectureText1R").innerHTML = "En Energy Sistem, se concibe el diseño como un factor fundamental en todo el proceso de desarrollo y lanzamiento de un producto. Por eso en esta ponencia Tono Gandía expondrá el valor estratégico del diseño en cada una de las fases del proceso creativo de un producto tecnológico, desde que nace hasta que llega al consumidor."
+        document.getElementById("speakerLectureText2R").innerHTML = ""
         $textResp.slideToggle();
       } else {
         $text.slideToggle();
