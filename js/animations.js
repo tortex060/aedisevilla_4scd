@@ -442,6 +442,43 @@ function showSpeakerInfo(ponente){
 
     break;
 
+    case "hugo":
+      document.getElementById("speakerName").innerHTML = "VÍCTOR HUGO";
+      document.getElementById("speakerCorp").innerHTML = "BQ";
+      document.getElementById("speakerText1").innerHTML = "Graduado como Ingeniero Técnico en Diseño Industrial en la Elisava y Master en Ingeniería del Diseño de la UPV. Trabaja actualmente en BQ, Madrid, en la posición de Devices Technical Leader, en el departamento de Mecánica y Diseño Industrial."
+      document.getElementById("speakerText2").innerHTML = "Cuando llegó a BQ, hace dos años, la compañía se propuso el reto de lanzar su primer teléfono desarrollado íntegramente en España. Un mes y medio después fue destinado a Shenzen (China), donde se convertiría en el responsable del departamento de Mecánica en Asia. Así pudo trabajar directamente con las fábricas y proveedores de la empresa, haría de puente de comunicación entre oriente y occidente, y ayudaría a que en verano de 2014, el BQ Aquaris E5, saliera a la luz como primer Smartphone de BQ desarrollado en España. Desde entonces la empresa ha diseñado ocho dispositivos de plástico, y uno en cuerpo de metal."
+      document.getElementById("speakerLectureTitle").innerHTML = "Cómo se hace un smartphone"
+      document.getElementById("speakerLectureText1").innerHTML = "En esta ponencia, se expone el ejemplo práctico del desarrollo de un producto: <a href=\"http://www.bq.com/es/aquaris-x5\" style=\"color: #CD3161;\" target=\"_blank\"> el Aquaris X5</a>. Aprenderemos cual es el proceso de diseño de un producto tecnológico a través de este smartphone de la mano de un diseñador del equipo BQ."
+      document.getElementById("speakerLectureText2").innerHTML = ""
+
+      $("#product1").attr("src", "/images/ponentes/products/victor-hugo-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/victor-hugo-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/victor-hugo-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/victor-hugo-01.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/victor-hugo-02.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "VÍCTOR HUGO";
+        document.getElementById("speakerCorpR").innerHTML = "BQ";
+        document.getElementById("speakerText1R").innerHTML = "Graduado como Ingeniero Técnico en Diseño Industrial en la Elisava y Master en Ingeniería del Diseño de la UPV. Trabaja actualmente en BQ, Madrid, en la posición de Devices Technical Leader, en el departamento de Mecánica y Diseño Industrial."
+        document.getElementById("speakerText2R").innerHTML = "Cuando llegó a BQ, hace dos años, la compañía se propuso el reto de lanzar su primer teléfono desarrollado íntegramente en España. Un mes y medio después fue destinado a Shenzen (China), donde se convertiría en el responsable del departamento de Mecánica en Asia. Así pudo trabajar directamente con las fábricas y proveedores de la empresa, haría de puente de comunicación entre oriente y occidente, y ayudaría a que en verano de 2014, el BQ Aquaris E5, saliera a la luz como primer Smartphone de BQ desarrollado en España. Desde entonces la empresa ha diseñado ocho dispositivos de plástico, y uno en cuerpo de metal."
+        document.getElementById("speakerLectureTitleR").innerHTML = "Cómo se hace un smartphone"
+        document.getElementById("speakerLectureText1R").innerHTML = "En esta ponencia, se expone el ejemplo práctico del desarrollo de un producto: <a href=\"http://www.bq.com/es/aquaris-x5\" style=\"color: #CD3161;\" target=\"_blank\"> el Aquaris X5</a>. Aprenderemos cual es el proceso de diseño de un producto tecnológico a través de este smartphone de la mano de un diseñador del equipo BQ."
+        document.getElementById("speakerLectureText2R").innerHTML = ""
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+
     default:
   }
 }

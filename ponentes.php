@@ -43,14 +43,21 @@
           </div>
         </div>
 
-        <div class="images-column-speaker" id="gandia" onclick="showSpeakerInfo(this.id)">
+        <div class="images-column-speaker" id="hugo" onclick="showSpeakerInfo(this.id)">
+          <div class="images-column-speaker-name">
+            <p>Víctor Hugo<br><span>BQ</span></p>
+          </div>
+          <img src="images/ponentes/victor-hugo.jpg" alt="victor hugo"/>
+        </div>
+
+        <div class="images-column-speaker center-speaker" id="gandia" onclick="showSpeakerInfo(this.id)">
           <div class="images-column-speaker-name">
             <p>Tono Gandía<br><span>ENERGY SISTEM</span></p>
           </div>
           <img src="images/ponentes/tono-gandia.jpg" alt="tono gandia"/>
         </div>
 
-        <div class="images-column-speaker center-speaker" id="benedito" onclick="showSpeakerInfo(this.id)">
+        <div class="images-column-speaker " id="benedito" onclick="showSpeakerInfo(this.id)">
           <div class="images-column-speaker-name">
             <p>Ramón Benedito<br><span>BENEDITO DESIGN</span></p>
           </div>
@@ -64,14 +71,14 @@
           <img src="images/ponentes/mormedi.jpg" alt="jaime moreno"/>
         </div>
 
-        <div class="images-column-speaker" id="jaimearanda" onclick="showSpeakerInfo(this.id)">
+        <div class="images-column-speaker center-speaker" id="jaimearanda" onclick="showSpeakerInfo(this.id)">
           <div class="images-column-speaker-name">
             <p>Jaime Aranda<br><span>workINcompany</span></p>
           </div>
           <img src="images/ponentes/jaime-aranda.jpg" alt="jaime aranda"/>
         </div>
 
-        <div class="images-column-speaker center-speaker" id="israelcastro" onclick="showSpeakerInfo(this.id)">
+        <div class="images-column-speaker " id="israelcastro" onclick="showSpeakerInfo(this.id)">
           <div class="images-column-speaker-name">
             <p>Israel Castro<br><span>MOUNTAIN</span></p>
           </div>
@@ -85,14 +92,14 @@
           <img src="images/ponentes/laura-camara.jpg" alt="laura camara"/>
         </div>
 
-        <div class="images-column-speaker" id="josegon1" onclick="showSpeakerInfo(this.id)">
+        <div class="images-column-speaker center-speaker" id="josegon1" onclick="showSpeakerInfo(this.id)">
           <div class="images-column-speaker-name">
             <p>José González<br><span>ZUMEX</span></p>
           </div>
           <img src="images/ponentes/jose-gonzalez.jpg" alt="jose gonzalez"/>
         </div>
 
-        <div class="images-column-speaker center-speaker" id="marcfabra2" onclick="showSpeakerInfo(this.id)">
+        <div class="images-column-speaker " id="marcfabra2" onclick="showSpeakerInfo(this.id)">
           <div class="images-column-speaker-name">
             <p>Marc Fabra<br><span>LÚCID</span></p>
           </div>
