@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/responsivePonentes.css">
     <link rel="stylesheet" type="text/css" href="css/entradas.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveEntradas.css">
+    <link rel="stylesheet" type="text/css" href="css/programa.css">
     <!--++++++++++Estilos responsive++++++++++++++++++++-->
     <link rel="stylesheet" type="text/css" href="css/responsiveMenu.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveHome.css">

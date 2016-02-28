@@ -264,7 +264,7 @@ function showSpeakerInfo(ponente){
           document.getElementById("speakerCorp").innerHTML = "MOUNTAIN";
           document.getElementById("speakerText1").innerHTML = "Israel Castro se formó en la Escuela de Arte Trazos de Madrid. Ha trabajado en Monigotes Studio 2.0 en la producción de proyectos cinematográficos, en Belt Ibérica como creativo y actualmente es el Director de producto e i+D de Mountain Labs."
           document.getElementById("speakerText2").innerHTML = "MOUNTAIN es una marca MADE IN SPAIN, orientada a fabricar sistemas informáticos de alto rendimiento. Cuenta con su propio laboratorio I+D para el estudio y creación de ordenadores orientados a los profesionales que demandan productos que respondan a sus necesidades adecuadamente. MOUNTAIN es una marca comprometida con la robustez y fiabilidad en cada uno de los productos que entrega. Para ello, fabrica desde equipos orientados a ofimática y el uso casual hasta los exigentes sistemas destinados al diseño gráfico, o los servidores con prestaciones específicas y estabilidad crítica para la empresa, así como los equipos diseñados para propósito multimedia y disfrute de videojuegos de última generación."
-          document.getElementById("speakerLectureTitle").innerHTML = "El valor añadido: que sea único, que sea para ti <span>| Jueves 10 -  11:30</span>"
+          document.getElementById("speakerLectureTitle").innerHTML = "El valor añadido: que sea único, que sea para ti <span>| Jueves 10 -  11:00</span>"
           document.getElementById("speakerLectureText1").innerHTML = "Cada usuario busca características distintas para su ordenador, pues cada tarea precisa de exigencias técnicas distintas. ¿Qué espera de su equipo un gamer?, ¿y un redactor?, ¿y un oficinista o un diseñador gráfico? Israel nos hablará de adaptación de los productos, de la personalización de los objetos a la medida del usuario y de sus costes y sus beneficios. Una tendencia que cada día aumenta más y que podremos conocer de la mano de una de las empresas que despuntan en este ámbito."
           document.getElementById("speakerLectureText2").innerHTML = ""
 
@@ -282,7 +282,7 @@ function showSpeakerInfo(ponente){
             document.getElementById("speakerCorpR").innerHTML = "MOUNTAIN";
             document.getElementById("speakerText1R").innerHTML = "Israel Castro se formó en la Escuela de Arte Trazos de Madrid. Ha trabajado en Monigotes Studio 2.0 en la producción de proyectos cinematográficos, en Belt Ibérica como creativo y actualmente es el Director de producto e i+D de Mountain Labs."
             document.getElementById("speakerText2R").innerHTML = "MOUNTAIN es una marca MADE IN SPAIN, orientada a fabricar sistemas informáticos de alto rendimiento. Cuenta con su propio laboratorio I+D para el estudio y creación de ordenadores orientados a los profesionales que demandan productos que respondan a sus necesidades adecuadamente. MOUNTAIN es una marca comprometida con la robustez y fiabilidad en cada uno de los productos que entrega. Para ello, fabrica desde equipos orientados a ofimática y el uso casual hasta los exigentes sistemas destinados al diseño gráfico, o los servidores con prestaciones específicas y estabilidad crítica para la empresa, así como los equipos diseñados para propósito multimedia y disfrute de videojuegos de última generación."
-            document.getElementById("speakerLectureTitleR").innerHTML = "El valor añadido: que sea único, que sea para ti <span>| Jueves 10 -  11:30</span>"
+            document.getElementById("speakerLectureTitleR").innerHTML = "El valor añadido: que sea único, que sea para ti <span>| Jueves 10 -  11:00</span>"
             document.getElementById("speakerLectureText1R").innerHTML = "Cada usuario busca características distintas para su ordenador, pues cada tarea precisa de exigencias técnicas distintas. ¿Qué espera de su equipo un gamer?, ¿y un redactor?, ¿y un oficinista o un diseñador gráfico? Israel nos hablará de adaptación de los productos, de la personalización de los objetos a la medida del usuario y de sus costes y sus beneficios. Una tendencia que cada día aumenta más y que podremos conocer de la mano de una de las empresas que despuntan en este ámbito."
             document.getElementById("speakerLectureText2R").innerHTML = ""
             $textResp.slideToggle();
@@ -338,7 +338,7 @@ function showSpeakerInfo(ponente){
       document.getElementById("speakerCorp").innerHTML = "BENEDITO DESIGN";
       document.getElementById("speakerText1").innerHTML = "Funda en 1973, BENEDITO DESIGN equipo dedicado al diseño de producto que ha  realizado proyectos para destacadas empresas tanto nacionales como internacionales. En 1992 recibe el Premio Nacional de Diseño."
       document.getElementById("speakerText2").innerHTML = "Durante 19 años ha impartido la asignatura de proyectos en la Escuela Elisava. Con Lluís Morillas y Josep Puig, funda en 1983 el equipo de diseño experimental Transatlantic. Ha sido Presidente de la Junta Directiva de ADI-FAD (Agrupación de Diseño Industrial del FAD), miembro del Consejo Directivo del FAD (Fomento de las Artes y el Diseño), consultor del KIDP (Korean Institute of Industrial Design) y miembro del Patronato de la Fundación BCD  (Barcelona Centro de Diseño). En junio de 2010 es nombrado Director General de Elisava. Sus proyectos se han expuesto en las principales capitales del mundo."
-      document.getElementById("speakerLectureTitle").innerHTML = "La forma del paisaje"
+      document.getElementById("speakerLectureTitle").innerHTML = "La forma del paisaje <span>| Sábado 12 -  17:00</span>"
       document.getElementById("speakerLectureText1").innerHTML = "Una mirada de retrovisor que recorre el discurrir de una trayectoria de diseño vinculada a Barcelona y que participa de la tradición emprendedora y artística de esta ciudad. Escuelas, instituciones, experiencias, empresas y la difusión internacional configuran este paisaje singular."
       document.getElementById("speakerLectureText2").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
 
@@ -356,7 +356,7 @@ function showSpeakerInfo(ponente){
         document.getElementById("speakerCorpR").innerHTML = "BENEDITO DESIGN";
         document.getElementById("speakerText1R").innerHTML = "Funda en 1973, BENEDITO DESIGN equipo dedicado al diseño de producto que ha  realizado proyectos para destacadas empresas tanto nacionales como internacionales. En 1992 recibe el Premio Nacional de Diseño."
         document.getElementById("speakerText2R").innerHTML = "Durante 19 años ha impartido la asignatura de proyectos en la Escuela Elisava. Con Lluís Morillas y Josep Puig, funda en 1983 el equipo de diseño experimental Transatlantic. Ha sido Presidente de la Junta Directiva de ADI-FAD (Agrupación de Diseño Industrial del FAD), miembro del Consejo Directivo del FAD (Fomento de las Artes y el Diseño), consultor del KIDP (Korean Institute of Industrial Design) y miembro del Patronato de la Fundación BCD  (Barcelona Centro de Diseño). En junio de 2010 es nombrado Director General de Elisava. Sus proyectos se han expuesto en las principales capitales del mundo."
-        document.getElementById("speakerLectureTitleR").innerHTML = "La forma del paisaje"
+        document.getElementById("speakerLectureTitleR").innerHTML = "La forma del paisaje <span>| Sábado 12 -  17:00</span>"
         document.getElementById("speakerLectureText1R").innerHTML = "Una mirada de retrovisor que recorre el discurrir de una trayectoria de diseño vinculada a Barcelona y que participa de la tradición emprendedora y artística de esta ciudad. Escuelas, instituciones, experiencias, empresas y la difusión internacional configuran este paisaje singular."
         document.getElementById("speakerLectureText2R").innerHTML = "Desde la formación, hasta la gestión y desde la práctica profesional hasta la experiencia docente. Benedito Design: tecnología y diseño, cuarenta años de historia y proyección de futuro."
         $textResp.slideToggle();
@@ -374,7 +374,7 @@ function showSpeakerInfo(ponente){
       document.getElementById("speakerCorp").innerHTML = "MORMEDI";
       document.getElementById("speakerText1").innerHTML = "Jaime Moreno se formó como diseñador en España, Suiza y Estados Unidos. Durante 15 años ha hecho posible el crecimiento de Mormedi a través de proyectos de significativa relevancia profesional premiados a nivel nacional e internacional."
       document.getElementById("speakerText2").innerHTML = "MORMEDI es una consultora de innovación y diseño de producto, que se basa en el diseño centrado en el usuario. Mormedi busca soluciones que añadan un valor comercial aportando una visión creativa que cautive al usuario."
-      document.getElementById("speakerLectureTitle").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica"
+      document.getElementById("speakerLectureTitle").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica <span>| Jueves 10 -  12:30</span>"
       document.getElementById("speakerLectureText1").innerHTML = "Hoy en día es imprescindible diseñar poniendo al cliente en el centro. Las empresas deben para poder innovar con éxito aplicar procesos \"customer centric\" para la conceptualización y el diseño de cualquier nuevo producto o servicio. Las metodologías del diseño estratégico que combinan el \"Design Thinking\" con el \"Business Thinking\" son clave para la innovación ya que permiten enfocar, iterar y validar los conceptos de una forma óptima tanto a nivel de experiencia como a nivel de viabilidad económica."
       document.getElementById("speakerLectureText2").innerHTML = ""
 
@@ -392,7 +392,7 @@ function showSpeakerInfo(ponente){
         document.getElementById("speakerCorpR").innerHTML = "MORMEDI";
         document.getElementById("speakerText1R").innerHTML = "Jaime Moreno se formó como diseñador en España, Suiza y Estados Unidos. Durante 15 años ha hecho posible el crecimiento de Mormedi a través de proyectos de significativa relevancia profesional premiados a nivel nacional e internacional."
         document.getElementById("speakerText2R").innerHTML = "MORMEDI es una consultora de innovación y diseño de producto, que se basa en el diseño centrado en el usuario. Mormedi busca soluciones que añadan un valor comercial aportando una visión creativa que cautive al usuario."
-        document.getElementById("speakerLectureTitleR").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica"
+        document.getElementById("speakerLectureTitleR").innerHTML = "Innovar a través de la experiencia cliente, utilizando el diseño como una herramienta estratégica <span>| Jueves 10 -  12:30</span>"
         document.getElementById("speakerLectureText1R").innerHTML = "Hoy en día es imprescindible diseñar poniendo al cliente en el centro. Las empresas deben para poder innovar con éxito aplicar procesos \"customer centric\" para la conceptualización y el diseño de cualquier nuevo producto o servicio. Las metodologías del diseño estratégico que combinan el \"Design Thinking\" con el \"Business Thinking\" son clave para la innovación ya que permiten enfocar, iterar y validar los conceptos de una forma óptima tanto a nivel de experiencia como a nivel de viabilidad económica."
         document.getElementById("speakerLectureText2R").innerHTML = ""
         $textResp.slideToggle();
@@ -410,7 +410,7 @@ function showSpeakerInfo(ponente){
       document.getElementById("speakerCorp").innerHTML = "ENERGY SISTEM";
       document.getElementById("speakerText1").innerHTML = "Tono Gandia, valenciano de 29 años, es Diseñador Industrial por la UPV con un master en Ingeniería del diseño (UPV) y un master en diseño y organización industrial en el sector del mueble (CETEM). Se define a sí mismo como un apasionado de conceptualizar nuevos productos enfocados al usuario y concibe el diseño como un factor influyente en la calidad de vida de las personas."
       document.getElementById("speakerText2").innerHTML = "Aunque comenzó con el diseño de mobiliario, desarrollando conceptos para una empresa del sector, pronto evolucionó hacia otros sectores trabajando como freelance para distintas agencias y proyectos de diseño industrial y 3D hasta que en 2013 pasó a formar parte de Energy Sistem Technology, empresa especializada en el diseño, desarrollo y comercialización de productos tecnológicos con más de 20 años de trayectoria, donde ejerze actualmente como responsable de diseño industrial llevando a cabo tareas como conceptualización de nuevos productos, prototipado 3D y supervisión de procesos y materiales."
-      document.getElementById("speakerLectureTitle").innerHTML = "De una parte al todo"
+      document.getElementById("speakerLectureTitle").innerHTML = "De una parte al todo <span>| Viernes 11 -  09:00</span>"
       document.getElementById("speakerLectureText1").innerHTML = "En Energy Sistem, se concibe el diseño como un factor fundamental en todo el proceso de desarrollo y lanzamiento de un producto. Por eso en esta ponencia Tono Gandía expondrá el valor estratégico del diseño en cada una de las fases del proceso creativo de un producto tecnológico, desde que nace hasta que llega al consumidor."
       document.getElementById("speakerLectureText2").innerHTML = ""
 
@@ -428,7 +428,7 @@ function showSpeakerInfo(ponente){
         document.getElementById("speakerCorpR").innerHTML = "ENERGY SISTEM";
         document.getElementById("speakerText1R").innerHTML = "Tono Gandia, valenciano de 29 años, es Diseñador Industrial por la UPV con un master en Ingeniería del diseño (UPV) y un master en diseño y organización industrial en el sector del mueble (CETEM). Se define a sí mismo como un apasionado de conceptualizar nuevos productos enfocados al usuario y concibe el diseño como un factor influyente en la calidad de vida de las personas."
         document.getElementById("speakerText2R").innerHTML = "Aunque comenzó con el diseño de mobiliario, desarrollando conceptos para una empresa del sector, pronto evolucionó hacia otros sectores trabajando como freelance para distintas agencias y proyectos de diseño industrial y 3D hasta que en 2013 pasó a formar parte de Energy Sistem Technology, empresa especializada en el diseño, desarrollo y comercialización de productos tecnológicos con más de 20 años de trayectoria, donde ejerze actualmente como responsable de diseño industrial llevando a cabo tareas como conceptualización de nuevos productos, prototipado 3D y supervisión de procesos y materiales."
-        document.getElementById("speakerLectureTitleR").innerHTML = "De una parte al todo"
+        document.getElementById("speakerLectureTitleR").innerHTML = "De una parte al todo <span>| Viernes 11 -  09:00</span>"
         document.getElementById("speakerLectureText1R").innerHTML = "En Energy Sistem, se concibe el diseño como un factor fundamental en todo el proceso de desarrollo y lanzamiento de un producto. Por eso en esta ponencia Tono Gandía expondrá el valor estratégico del diseño en cada una de las fases del proceso creativo de un producto tecnológico, desde que nace hasta que llega al consumidor."
         document.getElementById("speakerLectureText2R").innerHTML = ""
         $textResp.slideToggle();
@@ -447,7 +447,7 @@ function showSpeakerInfo(ponente){
       document.getElementById("speakerCorp").innerHTML = "BQ";
       document.getElementById("speakerText1").innerHTML = "Graduado como Ingeniero Técnico en Diseño Industrial en la Elisava y Master en Ingeniería del Diseño de la UPV. Trabaja actualmente en BQ, Madrid, en la posición de Devices Technical Leader, en el departamento de Mecánica y Diseño Industrial."
       document.getElementById("speakerText2").innerHTML = "Cuando llegó a BQ, hace dos años, la compañía se propuso el reto de lanzar su primer teléfono desarrollado íntegramente en España. Un mes y medio después fue destinado a Shenzen (China), donde se convertiría en el responsable del departamento de Mecánica en Asia. Así pudo trabajar directamente con las fábricas y proveedores de la empresa, haría de puente de comunicación entre oriente y occidente, y ayudaría a que en verano de 2014, el BQ Aquaris E5, saliera a la luz como primer Smartphone de BQ desarrollado en España. Desde entonces la empresa ha diseñado ocho dispositivos de plástico, y uno en cuerpo de metal."
-      document.getElementById("speakerLectureTitle").innerHTML = "Cómo se hace un smartphone"
+      document.getElementById("speakerLectureTitle").innerHTML = "Cómo se hace un smartphone <span>| Viernes 11 -  13:00</span>"
       document.getElementById("speakerLectureText1").innerHTML = "En esta ponencia, se expone el ejemplo práctico del desarrollo de un producto: <a href=\"http://www.bq.com/es/aquaris-x5\" style=\"color: #CD3161;\" target=\"_blank\"> el Aquaris X5</a>. Aprenderemos cual es el proceso de diseño de un producto tecnológico a través de este smartphone de la mano de un diseñador del equipo BQ."
       document.getElementById("speakerLectureText2").innerHTML = ""
 
@@ -465,9 +465,120 @@ function showSpeakerInfo(ponente){
         document.getElementById("speakerCorpR").innerHTML = "BQ";
         document.getElementById("speakerText1R").innerHTML = "Graduado como Ingeniero Técnico en Diseño Industrial en la Elisava y Master en Ingeniería del Diseño de la UPV. Trabaja actualmente en BQ, Madrid, en la posición de Devices Technical Leader, en el departamento de Mecánica y Diseño Industrial."
         document.getElementById("speakerText2R").innerHTML = "Cuando llegó a BQ, hace dos años, la compañía se propuso el reto de lanzar su primer teléfono desarrollado íntegramente en España. Un mes y medio después fue destinado a Shenzen (China), donde se convertiría en el responsable del departamento de Mecánica en Asia. Así pudo trabajar directamente con las fábricas y proveedores de la empresa, haría de puente de comunicación entre oriente y occidente, y ayudaría a que en verano de 2014, el BQ Aquaris E5, saliera a la luz como primer Smartphone de BQ desarrollado en España. Desde entonces la empresa ha diseñado ocho dispositivos de plástico, y uno en cuerpo de metal."
-        document.getElementById("speakerLectureTitleR").innerHTML = "Cómo se hace un smartphone"
+        document.getElementById("speakerLectureTitleR").innerHTML = "Cómo se hace un smartphone <span>| Viernes 11 -  13:00</span>"
         document.getElementById("speakerLectureText1R").innerHTML = "En esta ponencia, se expone el ejemplo práctico del desarrollo de un producto: <a href=\"http://www.bq.com/es/aquaris-x5\" style=\"color: #CD3161;\" target=\"_blank\"> el Aquaris X5</a>. Aprenderemos cual es el proceso de diseño de un producto tecnológico a través de este smartphone de la mano de un diseñador del equipo BQ."
         document.getElementById("speakerLectureText2R").innerHTML = ""
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+
+    case "ariel":
+      document.getElementById("speakerName").innerHTML = "ARIEL GUERSENZVAIG";
+      document.getElementById("speakerCorp").innerHTML = "ELISAVA";
+      document.getElementById("speakerText1").innerHTML = "Diseñador de interacción desde 1996, ha definido productos y servicios para grandes empresas, PYMES, ONGs y agencias estatales y gubernamentales. Ha sido socio en dos empresas de consultoría de diseño donde ha liderado equipos multidisciplinares. Actualmente trabaja como consultor independiente en ámbitos relacionados con la innovación centrada en el diseño y el diseño de servicios."
+      document.getElementById("speakerText2").innerHTML = "Es profesor e investigador en ELISAVA Escuela Superior de Diseño e Ingeniería de Barcelona. También es el director del Máster en Diseño y Dirección de Proyectos para Internet. Sus principales ámbitos de investigación académica son la metodología del diseño y la toma de decisiones en diseño. Es doctor en teoría del diseño por la University of Southampton (Reino Unido) y tiene un B.ASc. en Information Management (Book publishing) por la HvA de Ámsterdam (Países Bajos)."
+      document.getElementById("speakerLectureTitle").innerHTML = "Diseño y toma de decisiones <span>| Viernes 11 -  12:00</span>"
+      document.getElementById("speakerLectureText1").innerHTML = "El diseño (en todas sus disciplinas) requiere de constante toma de decisiones y resolución de problemas. Esta actividad se lleva a cabo en todas las fases de un proyecto. No importa si se trata de un proyecto sencillo o muy complejo, siempre hay que tomar decisiones. En esta sesión exploraremos los aspectos filosóficos generales y cuestiones específicas del diseño en torno a la toma de decisiones, la intuición, la racionalidad."
+      document.getElementById("speakerLectureText2").innerHTML = ""
+
+      $("#product1").attr("src", "/images/ponentes/products/ariel-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/ariel-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/ariel-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/ariel-03.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/ariel-02.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "ARIEL GUERSENZVAIG";
+        document.getElementById("speakerCorpR").innerHTML = "ELISAVA";
+        document.getElementById("speakerText1R").innerHTML = "Diseñador de interacción desde 1996, ha definido productos y servicios para grandes empresas, PYMES, ONGs y agencias estatales y gubernamentales. Ha sido socio en dos empresas de consultoría de diseño donde ha liderado equipos multidisciplinares. Actualmente trabaja como consultor independiente en ámbitos relacionados con la innovación centrada en el diseño y el diseño de servicios."
+        document.getElementById("speakerText2R").innerHTML = "Es profesor e investigador en ELISAVA Escuela Superior de Diseño e Ingeniería de Barcelona. También es el director del Máster en Diseño y Dirección de Proyectos para Internet. Sus principales ámbitos de investigación académica son la metodología del diseño y la toma de decisiones en diseño. Es doctor en teoría del diseño por la University of Southampton (Reino Unido) y tiene un B.ASc. en Information Management (Book publishing) por la HvA de Ámsterdam (Países Bajos)."
+        document.getElementById("speakerLectureTitleR").innerHTML = "Diseño y toma de decisiones <span>| Viernes 11 -  12:00</span>"
+        document.getElementById("speakerLectureText1R").innerHTML = "El diseño (en todas sus disciplinas) requiere de constante toma de decisiones y resolución de problemas. Esta actividad se lleva a cabo en todas las fases de un proyecto. No importa si se trata de un proyecto sencillo o muy complejo, siempre hay que tomar decisiones. En esta sesión exploraremos los aspectos filosóficos generales y cuestiones específicas del diseño en torno a la toma de decisiones, la intuición, la racionalidad."
+        document.getElementById("speakerLectureText2R").innerHTML = ""
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+
+    case "lorca":
+      document.getElementById("speakerName").innerHTML = "PEDRO LORCA";
+      document.getElementById("speakerCorp").innerHTML = "AIRZONE";
+      document.getElementById("speakerText1").innerHTML = "Pedro Lorca Maldonado, Product Manager de Corporación Empresarial Altra, grupo al que pertenece Airzone. Pedro es Ingeniero Técnico Industrial por la Universidad de Málaga y actualmente cursa el Máster en representación y diseño en ingeniería y arquitectura y posee amplia experiencia en el sector de la climatización y la domótica. Dentro de Altra, ha realizado Prescripción, Dirección de obra, I+D y actualmente Jefe de Producto de la compañía. Lidera el proyecto OEM de fabricantes a nivel nacional e internacional, y ha participado en diversos Congresos y Jornadas Técnicas relacionadas con el control y la eficiencia energética."
+      document.getElementById("speakerText2").innerHTML = "Airzone, marca del grupo Corporación Empresarial Altra, es la marca que engloba los productos y servicios relacionados con la climatización eficiente y el bienestar en el hábitat ampliado. Nos dedicamos al desarrollo, fabricación y comercialización de productos tecnológicos que, a día de hoy, se centran en el control de las instalaciones de climatización en sentido amplio, dotando a estas de control eficiente y comunicaciones con el usuario. Con más de 5000 metros cuadrados dedicados a la producción, Airzone fabrica todos los elementos que ofrece a mercado en su central ubicada en el Parque Tecnológico de Andalucía, Málaga. Nacida en 1997, cuenta con sedes propias en España, Francia, Italia y Estados Unidos y presencia en más de 20 países."
+      document.getElementById("speakerLectureTitle").innerHTML = "Presente y futuro del control <span>| Jueves 10 -  18:30</span>"
+      document.getElementById("speakerLectureText1").innerHTML = "¿Estamos aprovechando el verdadero potencial de la domótica?¿Cual es su potencial real? En esta ponencia, Pedro Lorca recopilará los avances y evolución de la domótica desde sus inicios hasta la actualidad, así como sus aplicaciones inmediatas y futuras, dentro de un campo con una gran variedad de posibilidades y totalmente abierto a la innovación."
+      document.getElementById("speakerLectureText2").innerHTML = ""
+
+      $("#product1").attr("src", "/images/ponentes/products/pedro-lorca-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/pedro-lorca-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/pedro-lorca-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/pedro-lorca-03.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/pedro-lorca-04.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "PEDRO LORCA";
+        document.getElementById("speakerCorpR").innerHTML = "AIRZONE";
+        document.getElementById("speakerText1R").innerHTML = "Pedro Lorca Maldonado, Product Manager de Corporación Empresarial Altra, grupo al que pertenece Airzone. Pedro es Ingeniero Técnico Industrial por la Universidad de Málaga y actualmente cursa el Máster en representación y diseño en ingeniería y arquitectura y posee amplia experiencia en el sector de la climatización y la domótica. Dentro de Altra, ha realizado Prescripción, Dirección de obra, I+D y actualmente Jefe de Producto de la compañía. Lidera el proyecto OEM de fabricantes a nivel nacional e internacional, y ha participado en diversos Congresos y Jornadas Técnicas relacionadas con el control y la eficiencia energética."
+        document.getElementById("speakerText2R").innerHTML = "Airzone, marca del grupo Corporación Empresarial Altra, es la marca que engloba los productos y servicios relacionados con la climatización eficiente y el bienestar en el hábitat ampliado. Nos dedicamos al desarrollo, fabricación y comercialización de productos tecnológicos que, a día de hoy, se centran en el control de las instalaciones de climatización en sentido amplio, dotando a estas de control eficiente y comunicaciones con el usuario. Con más de 5000 metros cuadrados dedicados a la producción, Airzone fabrica todos los elementos que ofrece a mercado en su central ubicada en el Parque Tecnológico de Andalucía, Málaga. Nacida en 1997, cuenta con sedes propias en España, Francia, Italia y Estados Unidos y presencia en más de 20 países."
+        document.getElementById("speakerLectureTitleR").innerHTML = "Presente y futuro del control <span>| Jueves 10 -  18:30</span>"
+        document.getElementById("speakerLectureText1R").innerHTML = "¿Estamos aprovechando el verdadero potencial de la domótica?¿Cual es su potencial real? En esta ponencia, Pedro Lorca recopilará los avances y evolución de la domótica desde sus inicios hasta la actualidad, así como sus aplicaciones inmediatas y futuras, dentro de un campo con una gran variedad de posibilidades y totalmente abierto a la innovación. "
+        document.getElementById("speakerLectureText2R").innerHTML = ""
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+
+    case "pep":
+      document.getElementById("speakerName").innerHTML = "JOSÉ MANUEL MATEO";
+      document.getElementById("speakerCorp").innerHTML = "OZESTUDI";
+      document.getElementById("speakerText1").innerHTML = "José Manuel Mateo empieza estudios de Diseño Gráfico, ampliando su visión sobre el diseño, con la clara finalidad de graduarse en Diseño Industrial. Disciplina en la que se gradúa por la E.A.A. i Oficis Artístics Llotja de Barcelona en 1999 como uno de los mejores alumnos de su promoción."
+      document.getElementById("speakerText2").innerHTML = "Cree que el diseño industrial es ante todo comunicación y tiene la convicción de que más allá de proyectos basados en aspectos arbitrarios, frivolidades o experimentaciones que han venido marcando la visión del sector en las últimas décadas, existe un camino de proyecto que permite ofrecer soluciones efectivas y viables que llevan al diseño industrial a establecerse como puente entre las necesidades físicas-espirituales del usuario y la empresa encargada de materializarlas. Desde hace más de 14 años OZESTUDI ofrece servicios de diseño industrial, diseño gráfico, ingeniería derivada del diseño y consultoría técnica de forma independiente."
+      document.getElementById("speakerLectureTitle").innerHTML = "Las grandes respuestas del diseño industrial <span>| Jueves 10 -  10:00</span>"
+      document.getElementById("speakerLectureText1").innerHTML = "En nuestro sector existen debates recurrentes y eternos que, más que zanjarse parecen avivarse generación tras generación. Preguntas como: ¿Qué es el diseño industrial? o ¿qué papel tiene el arte y la artesanía en el diseño? están siempre sobre la mesa e intentan ser contestadas por cada nueva hornada de diseñadores, ya sea mediante el resultado de su propio trabajo (sean o no conscientes) o a partir de nuevos discursos teóricos. Tal es la importancia de esa respuesta, que permite ubicar con precisión nuestra profesión y disciplina, que el ICSID acaba de renovar por quinta vez la definición oficial del Diseño Industrial para intentar adaptarla a un tiempo nuevo. Pero, ¿es correcta esta definición oficial? ¿Define realmente el trabajo al que nos enfrentamos los diseñadores o sigue siendo una definición deformada?"
+      document.getElementById("speakerLectureText2").innerHTML = "De lo que si que podemos estar totalamente seguros es que definirnos y definir nuestro trabajo es importante para dibujar con nitidez la imagen que la sociedad, la industria y la economía han de tener de nuestro sector y sobretodo porque éste debe ser un pilar principal en el que apoyar la enseñanza del diseño, hoy ampliamente cuestionada. Siendo ésta una reflexión que todos, tarde o temprano nos hacemos como diseñadores, la ponencia intentará recorrer pasado, presente y futuro del diseño para ofrecer argumentos objetivos para enriquecer nuevas respuestas."
+
+      $("#product1").attr("src", "/images/ponentes/products/pep-mateo-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/pep-mateo-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/pep-mateo-02.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/pep-mateo-03.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/pep-mateo-04.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "JOSÉ MANUEL MATEO";
+        document.getElementById("speakerCorpR").innerHTML = "OZESTUDI";
+        document.getElementById("speakerText1R").innerHTML = "José Manuel Mateo empieza estudios de Diseño Gráfico, ampliando su visión sobre el diseño, con la clara finalidad de graduarse en Diseño Industrial. Disciplina en la que se gradúa por la E.A.A. i Oficis Artístics Llotja de Barcelona en 1999 como uno de los mejores alumnos de su promoción."
+        document.getElementById("speakerText2R").innerHTML = "Cree que el diseño industrial es ante todo comunicación y tiene la convicción de que más allá de proyectos basados en aspectos arbitrarios, frivolidades o experimentaciones que han venido marcando la visión del sector en las últimas décadas, existe un camino de proyecto que permite ofrecer soluciones efectivas y viables que llevan al diseño industrial a establecerse como puente entre las necesidades físicas-espirituales del usuario y la empresa encargada de materializarlas. Desde hace más de 14 años OZESTUDI ofrece servicios de diseño industrial, diseño gráfico, ingeniería derivada del diseño y consultoría técnica de forma independiente."
+        document.getElementById("speakerLectureTitleR").innerHTML = "Las grandes respuestas del diseño industrial <span>| Jueves 10 -  10:00</span>"
+        document.getElementById("speakerLectureText1R").innerHTML = "En nuestro sector existen debates recurrentes y eternos que, más que zanjarse parecen avivarse generación tras generación. Preguntas como: ¿Qué es el diseño industrial? o ¿qué papel tiene el arte y la artesanía en el diseño? están siempre sobre la mesa e intentan ser contestadas por cada nueva hornada de diseñadores, ya sea mediante el resultado de su propio trabajo (sean o no conscientes) o a partir de nuevos discursos teóricos. Tal es la importancia de esa respuesta, que permite ubicar con precisión nuestra profesión y disciplina, que el ICSID acaba de renovar por quinta vez la definición oficial del Diseño Industrial para intentar adaptarla a un tiempo nuevo. Pero, ¿es correcta esta definición oficial? ¿Define realmente el trabajo al que nos enfrentamos los diseñadores o sigue siendo una definición deformada?"
+        document.getElementById("speakerLectureText2R").innerHTML = "De lo que si que podemos estar totalamente seguros es que definirnos y definir nuestro trabajo es importante para dibujar con nitidez la imagen que la sociedad, la industria y la economía han de tener de nuestro sector y sobretodo porque éste debe ser un pilar principal en el que apoyar la enseñanza del diseño, hoy ampliamente cuestionada. Siendo ésta una reflexión que todos, tarde o temprano nos hacemos como diseñadores, la ponencia intentará recorrer pasado, presente y futuro del diseño para ofrecer argumentos objetivos para enriquecer nuevas respuestas."
         $textResp.slideToggle();
       } else {
         $text.slideToggle();
