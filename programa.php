@@ -10,7 +10,59 @@
    $(document).ready(function(){
      $("header").css({background:"url(/images/cabecera-rosa.jpg) no-repeat center", "background-size": "cover"});
      //$(".nav-container").css({background:"url(/images/cabecera-verde.jpg) no-repeat center", "background-size": "cover"});
+
+     $("#jueves").hide();
+     $("#viernes").hide();
+     $("#sabado").hide();
    });
+
+   function showDay(day){
+     if(day=="jday") {
+       var imgDay = $("#jday");
+       var img = imgDay.attr("src");
+       if(img == "/images/programa/plus.png") {
+         imgDay.attr("src","/images/programa/minus.png");
+       } else {
+         imgDay.attr("src","/images/programa/plus.png");
+       }
+       
+       $("#jueves").slideToggle();
+       var posicion = $("#jueves").offset().top;
+       $("html, body").animate({
+        scrollTop: posicion - 220
+      }, 500);
+
+     } else if(day=="vday") {
+       var imgDay = $("#vday");
+       var img = imgDay.attr("src");
+       if(img == "/images/programa/plus.png") {
+         imgDay.attr("src","/images/programa/minus.png");
+       } else {
+         imgDay.attr("src","/images/programa/plus.png");
+       }
+
+       $("#viernes").slideToggle();
+       var posicion = $("#viernes").offset().top;
+       $("html, body").animate({
+         scrollTop: posicion - 220
+       }, 500)
+
+     } else if(day=="sday") {
+       var imgDay = $("#sday");
+       var img = imgDay.attr("src");
+       if(img == "/images/programa/plus.png") {
+         imgDay.attr("src","/images/programa/minus.png");
+       } else {
+         imgDay.attr("src","/images/programa/plus.png");
+       }
+
+       $("#sabado").slideToggle();
+       var posicion = $("#sabado").offset().top;
+       $("html, body").animate({
+        scrollTop: posicion - 220
+      }, 500)
+     }
+   }
  </script>
  <div class="page-container">
    <div class="page-content">
@@ -21,7 +73,7 @@
        </div>
        <img src="/images/programa/drop.jpg" alt="" class="drop-img"/>
        <img src="/images/programa/corner.jpg" alt="" class="corner-img"/>
-       <img src="/images/programa/plus.png" alt="" class="drop-btn"/>
+       <img src="/images/programa/plus.png" alt="" class="drop-btn" id="jday" onclick="showDay(this.id)"/>
      </div>
 
      <div class="day-schedule-container" id="jueves">
@@ -114,7 +166,7 @@
        </div>
        <img src="/images/programa/drop.jpg" alt="" class="drop-img"/>
        <img src="/images/programa/corner.jpg" alt="" class="corner-img"/>
-       <img src="/images/programa/plus.png" alt="" class="drop-btn"/>
+       <img src="/images/programa/plus.png" alt="" class="drop-btn" id="vday" onclick="showDay(this.id)"/>
      </div>
 
      <div class="day-schedule-container" id="viernes">
@@ -208,10 +260,10 @@
        </div>
        <img src="/images/programa/drop.jpg" alt="" class="drop-img"/>
        <img src="/images/programa/corner.jpg" alt="" class="corner-img"/>
-       <img src="/images/programa/plus.png" alt="" class="drop-btn"/>
+       <img src="/images/programa/plus.png" alt="" class="drop-btn" id="sday" onclick="showDay(this.id)"/>
      </div>
 
-     <div class="day-schedule-container" id="viernes">
+     <div class="day-schedule-container" id="sabado">
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
