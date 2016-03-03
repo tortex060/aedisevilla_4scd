@@ -34,5 +34,11 @@
          <p class="light-bg" style="padding: 15px 0;">El <b>Centro de Iniciativas Culturales (CICUS)</b> se aloja en un edificio situado en el centro histórico de Sevilla y tiene su origen en el antiguo Convento de Madre de Dios. El edificio de estilo neoclásico data de principios del Siglo XX (1902-1903) y fue diseñado por el arquitecto Arévalo Álvarez Millán. En 1964 fue reformado por Ruíz de Simanca, y posterioremente en 1990, por Francisco Granero Martín. De este modo, la ocupación del edificio por parte del CICUS en 2011 abre un nuevo capítulo en la historia, situando la cultura en un lugar privilegiado dentro de la ciudad.</p>
        </div>
      </div>
+     <div class="location-container" style="padding: 20px; display: block;">
+       <div class="location-text" style="width: 100%;" >
+         <h4 style="color: #008375">GUÍA DE TAPAS POR SEVILLA</h4>
+       </div>
+       <iframe src="https://www.google.com/maps/d/embed?mid=zl7apzdZ9PQA.kM9PtSN4wMNQ" width="100%" height="480"></iframe>
+     </div>
    </div>
  </div>

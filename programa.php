@@ -25,7 +25,7 @@
        } else {
          imgDay.attr("src","/images/programa/plus.png");
        }
-       
+
        $("#jueves").slideToggle();
        var posicion = $("#jueves").offset().top;
        $("html, body").animate({
@@ -80,14 +80,14 @@
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
-           <h4>9:30 <span>PRESENTACIÓN</span></h4>
+           <h4>9:00 <span>PRESENTACIÓN</span></h4>
          </div>
          <img src="/images/programa/point.jpg" alt="" class="day-schedule-img" />
        </div>
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
-           <h4>10:00 <span>JOSÉ MANUEL MATEO <span>OZESTUDI</span></span></h4>
+           <h4>09:30 <span>JOSÉ MANUEL MATEO <span>OZESTUDI</span></span></h4>
            <p>Las grandes respuestas del diseño industrial</p>
          </div>
          <img src="/images/programa/point.jpg" alt="" class="day-schedule-img" />
@@ -95,7 +95,7 @@
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
-           <h4>11:00 <span>ISRAEL CASTRO <span>MOUNTAIN</span></span></h4>
+           <h4>10:30 <span>ISRAEL CASTRO <span>MOUNTAIN</span></span></h4>
            <p>El valor añadido: que sea único, que sea para ti</p>
          </div>
          <img src="/images/programa/point.jpg" alt="" class="day-schedule-img" />
@@ -103,7 +103,7 @@
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
-           <h4 style="color: #FFC556">12:00 <span>DESCANSO <span></span></span></h4>
+           <h4 style="color: #FFC556">11:30 <span>DESCANSO <span></span></span></h4>
            <p></p>
          </div>
          <img src="/images/programa/point-break.jpg" alt="" class="day-schedule-img" />
@@ -135,7 +135,7 @@
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
-           <h4 style="color: #EB6851">17:00 <span>DEBATE <span>POR DETERMINAR</span></span></h4>
+           <h4 style="color: #EB6851">17:00 <span>DEBATE: ¿EL DISEÑO SIRVE A LAS MASAS?</span></h4>
            <p></p>
          </div>
          <img src="/images/programa/point-debate.jpg" alt="" class="day-schedule-img" />
@@ -246,7 +246,7 @@
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
            <h4>18:30 <span>PILO MARTÍN <span>CON ACENTO</span></span></h4>
-           <p></p>
+           <p>Decoding the city</p>
          </div>
          <img src="/images/programa/point.jpg" alt="" class="day-schedule-img" />
        </div>
@@ -267,7 +267,7 @@
 
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
-           <h4>9:00 <span>WORKSHOPS <span></span></span></h4>
+           <h4>9:00 <span><a href="index.php?page=workshops" style="color: #333; font-weight: 700;">WORKSHOPS</a><span></span></span></h4>
            <!--<p class="workshop">TU MODELO DE NEGOCIO <span>Jaime Aranda</span></p>
            <p class="workshop">MAPAS CONCEPTUALES <span>Fernando Infante y Javier Rodríguez</span></p>
            <p class="workshop">MONTA TU DRON <span>Nito García y Santi Tudela</span></p>-->
@@ -309,6 +309,7 @@
        <div class="day-schedule-row">
          <div class="day-schedule-speak">
            <h4 style="color: #00A19A">23:00 <span>FIESTA DE CIERRE</span></h4>
+           <p>Sala La Jolla - C/ Dos de Mayo 10</p>
          </div>
          <img src="/images/programa/point-party.jpg" alt="" class="day-schedule-img" />
        </div>

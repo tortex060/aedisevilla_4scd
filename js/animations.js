@@ -564,9 +564,9 @@ function showSpeakerInfo(ponente){
 
       $("#product1").attr("src", "/images/ponentes/products/pep-mateo-00.jpg");
       $("#product2").attr("src", "/images/ponentes/products/pep-mateo-01.jpg");
-      $("#product3").attr("src", "/images/ponentes/products/pep-mateo-02.jpg");
-      $("#product4").attr("src", "/images/ponentes/products/pep-mateo-03.jpg");
-      $("#product5").attr("src", "/images/ponentes/products/pep-mateo-04.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/pep-mateo-00.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/pep-mateo-01.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/pep-mateo-00.jpg");
 
       if(windowWidth < 768){
         $(".images-column-speaker img").hide();
@@ -576,9 +576,46 @@ function showSpeakerInfo(ponente){
         document.getElementById("speakerCorpR").innerHTML = "OZESTUDI";
         document.getElementById("speakerText1R").innerHTML = "José Manuel Mateo empieza estudios de Diseño Gráfico, ampliando su visión sobre el diseño, con la clara finalidad de graduarse en Diseño Industrial. Disciplina en la que se gradúa por la E.A.A. i Oficis Artístics Llotja de Barcelona en 1999 como uno de los mejores alumnos de su promoción."
         document.getElementById("speakerText2R").innerHTML = "Cree que el diseño industrial es ante todo comunicación y tiene la convicción de que más allá de proyectos basados en aspectos arbitrarios, frivolidades o experimentaciones que han venido marcando la visión del sector en las últimas décadas, existe un camino de proyecto que permite ofrecer soluciones efectivas y viables que llevan al diseño industrial a establecerse como puente entre las necesidades físicas-espirituales del usuario y la empresa encargada de materializarlas. Desde hace más de 14 años OZESTUDI ofrece servicios de diseño industrial, diseño gráfico, ingeniería derivada del diseño y consultoría técnica de forma independiente."
-        document.getElementById("speakerLectureTitleR").innerHTML = "Las grandes respuestas del diseño industrial <span>| Jueves 10 -  10:00</span>"
+        document.getElementById("speakerLectureTitleR").innerHTML = "Las grandes respuestas del diseño industrial <span>| Jueves 10 -  10:30</span>"
         document.getElementById("speakerLectureText1R").innerHTML = "En nuestro sector existen debates recurrentes y eternos que, más que zanjarse parecen avivarse generación tras generación. Preguntas como: ¿Qué es el diseño industrial? o ¿qué papel tiene el arte y la artesanía en el diseño? están siempre sobre la mesa e intentan ser contestadas por cada nueva hornada de diseñadores, ya sea mediante el resultado de su propio trabajo (sean o no conscientes) o a partir de nuevos discursos teóricos. Tal es la importancia de esa respuesta, que permite ubicar con precisión nuestra profesión y disciplina, que el ICSID acaba de renovar por quinta vez la definición oficial del Diseño Industrial para intentar adaptarla a un tiempo nuevo. Pero, ¿es correcta esta definición oficial? ¿Define realmente el trabajo al que nos enfrentamos los diseñadores o sigue siendo una definición deformada?"
         document.getElementById("speakerLectureText2R").innerHTML = "De lo que si que podemos estar totalamente seguros es que definirnos y definir nuestro trabajo es importante para dibujar con nitidez la imagen que la sociedad, la industria y la economía han de tener de nuestro sector y sobretodo porque éste debe ser un pilar principal en el que apoyar la enseñanza del diseño, hoy ampliamente cuestionada. Siendo ésta una reflexión que todos, tarde o temprano nos hacemos como diseñadores, la ponencia intentará recorrer pasado, presente y futuro del diseño para ofrecer argumentos objetivos para enriquecer nuevas respuestas."
+        $textResp.slideToggle();
+      } else {
+        $text.slideToggle();
+      }
+
+      $slider.slideToggle();
+
+      startCarousel();
+
+    break;
+
+    case "pilo":
+      document.getElementById("speakerName").innerHTML = "PILO MARTÍN";
+      document.getElementById("speakerCorp").innerHTML = "CON ACENTO";
+      document.getElementById("speakerText1").innerHTML = "Pilo Martín es un gaditano activo en todas las áreas que se propone. Desde su experiencia en el mundo de la oratoria y el debate fundó Con Acento, consultora estratégica en comunicación ligada al mundo de la educación y el emprendimiento tecnológico."
+      document.getElementById("speakerText2").innerHTML = "Tras terminar tres carreras del área de las ciencias sociales, comenzó a formarse en temas de diseño y arquitectura hasta participar en la dirección de Citythinking. Esta iniciativa, a medio camino entre un laboratorio de investigación territorial y una oficina de diseño, nació con el afán de repensar y adaptar organizaciones territoriales trabajando sobre la ciudad e investigando procesos urbanos con nuevas herramientas de visualización."
+      document.getElementById("speakerLectureTitle").innerHTML = "Decoding the city <span>| Viernes 11 - 18:30</span>"
+      document.getElementById("speakerLectureText1").innerHTML = "En su intervención hablará del futuro (casi presente) de nuestro entorno a través del desarrollo de las Smart Cities, desde una perspectiva enfocada en la eficiencia y la creatividad de los procesos sociales, ambientales y económicos."
+      document.getElementById("speakerLectureText2").innerHTML = ""
+
+      $("#product1").attr("src", "/images/ponentes/products/pilo-martin-00.jpg");
+      $("#product2").attr("src", "/images/ponentes/products/pilo-martin-01.jpg");
+      $("#product3").attr("src", "/images/ponentes/products/pilo-martin-00.jpg");
+      $("#product4").attr("src", "/images/ponentes/products/pilo-martin-01.jpg");
+      $("#product5").attr("src", "/images/ponentes/products/pilo-martin-00.jpg");
+
+      if(windowWidth < 768){
+        $(".images-column-speaker img").hide();
+        $(".page-title h2").hide();
+        $(".speaker-close").show();
+        document.getElementById("speakerNameR").innerHTML = "PILO MARTÍN";
+        document.getElementById("speakerCorpR").innerHTML = "CON ACENTO";
+        document.getElementById("speakerText1R").innerHTML = "Pilo Martín es un gaditano activo en todas las áreas que se propone. Desde su experiencia en el mundo de la oratoria y el debate fundó Con Acento, consultora estratégica en comunicación ligada al mundo de la educación y el emprendimiento tecnológico."
+        document.getElementById("speakerText2R").innerHTML = "Tras terminar tres carreras del área de las ciencias sociales, comenzó a formarse en temas de diseño y arquitectura hasta participar en la dirección de Citythinking. Esta iniciativa, a medio camino entre un laboratorio de investigación territorial y una oficina de diseño, nació con el afán de repensar y adaptar organizaciones territoriales trabajando sobre la ciudad e investigando procesos urbanos con nuevas herramientas de visualización."
+        document.getElementById("speakerLectureTitleR").innerHTML = "Decoding the city <span>| Viernes 11 - 18:30</span>"
+        document.getElementById("speakerLectureText1R").innerHTML = "En su intervención hablará del futuro (casi presente) de nuestro entorno a través del desarrollo de las Smart Cities, desde una perspectiva enfocada en la eficiencia y la creatividad de los procesos sociales, ambientales y económicos."
+        document.getElementById("speakerLectureText2R").innerHTML = ""
         $textResp.slideToggle();
       } else {
         $text.slideToggle();
