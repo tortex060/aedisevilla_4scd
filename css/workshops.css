@@ -1,0 +1,145 @@
+.workshop-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.workshop-container-shadow {
+  box-shadow: 0px 3px 7px rgba(0,0,0,0.5);
+}
+.workshop-banner {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  transition: 0.2s;
+
+}
+.workshop-banner:hover {
+  box-shadow: 0px 3px 7px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.workshop-banner-border:hover {
+  box-shadow: none;
+  cursor: auto;
+}
+.workshop-title {
+  background: #00A19B;
+  /*width: 50%;*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px 25px;
+}
+.workshop-title h2 {
+  font-size: 3.6rem;
+}
+
+
+.workshop-content {
+  width: 100%;
+  background: #f6f6f6;
+  border-top: none;
+  position: relative;
+  padding: 20px;
+}
+.workshop-container img.workshop-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+.workshop-container img.workshop-close:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.workshop-content h4 {
+  color: #00A19B;
+  padding: 10px 0;
+}
+.workshop-container p {
+  color: #666;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.workshop-container p a {
+  color: #00A19B;
+}
+.workshop-container p a:hover {
+  text-decoration: underline;
+}
+.workshop-monitor-photo {
+  width: 19%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 0;
+}
+.workshop-monitor-photo img {
+  width: 100%;
+  position: inherit;
+  display: inline-block;
+}
+.workshop-monitor-text {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 15px;
+}
+.workshop-monitor-text p {
+  color: #666;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.workshop-monitor-text p a {
+  color: #00A19B;
+}
+.workshop-monitor-text p a:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 900px) {
+  .workshop-title h2 {
+    font-size: 3rem;
+  }
+  .workshop-monitor-photo {
+    width: 30%;
+  }
+  .workshop-monitor-text {
+    width: 69%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .workshop-banner {
+    height: 200px;
+  }
+  .workshop-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.6);
+  }
+  .workshop-title h2 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .workshop-monitor-photo {
+    width: 45%;
+    text-align: center;
+  }
+  .workshop-monitor-text {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .workshop-monitor-photo {
+    width: 100%;
+    text-align: center;
+  }
+}

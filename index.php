@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/entradas.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveEntradas.css">
     <link rel="stylesheet" type="text/css" href="css/programa.css">
+    <link rel="stylesheet" type="text/css" href="css/workshops.css">
     <!--++++++++++Estilos responsive++++++++++++++++++++-->
     <link rel="stylesheet" type="text/css" href="css/responsiveMenu.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveHome.css">
@@ -82,6 +83,9 @@
           break;
           case "programa":
             include_once ("programa.php");
+          break;
+          case "workshops":
+            include_once ("workshops.php");
           break;
           case "localizacion":
             include_once ("localizacion.php");
