@@ -33,6 +33,10 @@
   font-size: 3.6rem;
   letter-spacing: 0.6rem;
 }
+.workshop-title h2.workshop-long-title {
+  font-size: 3rem;
+  text-align: right;
+}
 
 
 .workshop-content {
@@ -115,7 +119,7 @@
 }
 @media screen and (max-width: 767px) {
   .workshop-banner {
-    height: 200px;
+    height: 240px;
   }
   .workshop-title {
     width: 100%;
@@ -127,6 +131,9 @@
   }
   .workshop-title h2 {
     font-size: 3.2rem;
+    text-align: center;
+  }
+  .workshop-title h2.workshop-long-title {
     text-align: center;
   }
   .workshop-monitor-photo {

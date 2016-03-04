@@ -96,7 +96,7 @@
      <div class="workshop-container">
        <div class="workshop-banner" id="mapas" onclick="showWorkshop(this.id)">
          <div class="workshop-title">
-           <h2 style="font-size: 3rem; text-align: right;">Mapas conceptuales: cómo hacer física la lógica creativa</h2>
+           <h2 class="workshop-long-title">Mapas conceptuales: cómo hacer física la lógica creativa</h2>
          </div>
        </div>
        <div class="workshop-content" id="mapas-body">
@@ -125,7 +125,7 @@
      <div class="workshop-container">
        <div class="workshop-banner" id="negocio" onclick="showWorkshop(this.id)">
          <div class="workshop-title">
-           <h2 style="font-size: 3rem; text-align: right;">Tu modelo de negocio: de la cartera a la startup</h2>
+           <h2 class="workshop-long-title">Tu modelo de negocio: de la cartera a la startup</h2>
          </div>
        </div>
        <div class="workshop-content" id="negocio-body">
